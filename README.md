@@ -9,12 +9,17 @@ Entrenar un modelo capaz de recibir un parche de imagen satelital y generar una 
 * **Lenguaje:** Python 3
 * **Deep Learning:** PyTorch
 * **Procesamiento y Visualización:** NumPy, Matplotlib, Pillow / OpenCV
-* **Entorno de entrenamiento:** Google Colab (GPU)
+* **Entorno de entrenamiento:** Google Colab (GPU Tesla T4)
+*  **Dataset:** 38-Cloud
 
 ## Estructura del proyecto
 * `notebooks/`: Cuadernos de Colab con el flujo completo (carga de datos, entrenamiento y evaluación).
 * `src/`: Módulos en Python con la arquitectura U-Net y el `Dataset` personalizado.
 * `models/`: Pesos entrenados del modelo (ignorados en Git).
+
+## Memoria
+1.  Configuración de API Key (kaggle) y entorno de trabajo (Google Colab) para tener acceso a GPU.
+2.  
 
 ## Resultados
 *(imagen comparativa: Imagen Satelital | Máscara Real | Predicción de la U-Net una vez entrenado el modelo).*
